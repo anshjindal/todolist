@@ -1,0 +1,73 @@
+body, h1, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+div {
+    margin: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="button"] {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #cc0000;
+}
